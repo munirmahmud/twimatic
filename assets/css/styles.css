@@ -34,6 +34,9 @@ a {
 .content-center {
   justify-content: center;
 }
+.content-between {
+  justify-content: space-between;
+}
 .flex-column {
   flex-direction: column;
 }
@@ -334,4 +337,71 @@ button:disabled {
 .user i {
   color: #444444;
   font-size: 1.6rem;
+}
+
+/* FEEDS CONTENT */
+.feeds-content {
+  display: grid;
+  grid-template-columns: minmax(5rem, 1fr) 60rem 40rem minmax(5rem, 1fr);
+  grid-template-rows: repeat(2, min-content);
+  padding-top: 6.5rem;
+}
+.feeds-header {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  background-color: var(--white);
+  margin-top: 1.5rem;
+}
+
+.header-top {
+  border-bottom: 0.1rem solid #eee;
+  padding: 1.5rem;
+}
+
+.header-top h4 {
+  font-size: 2.2rem;
+}
+.header-icon {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.header-icon i {
+  font-size: 1.8rem;
+  color: var(--blue);
+}
+.header-icon:hover {
+  background-color: #e8f5fd;
+}
+
+.header-post {
+  padding: 1rem;
+  border-bottom: 0.1rem solid #eee;
+}
+.header-img-wrapper {
+  width: 4rem;
+  height: 4rem;
+  margin-right: 1.5rem;
+}
+.header-img-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.header-post input {
+  width: 35rem;
+  height: 3.5rem;
+  border: 0.1rem solid #d6e1e9;
+  background-color: #d6e1e9;
+  border-radius: 3rem;
+  padding: 0.4rem 1.5rem;
+}
+.header-post i {
+  font-size: 2.5rem;
+  color: var(--blue);
+  margin: 1rem;
 }
