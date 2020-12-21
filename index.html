@@ -87,6 +87,87 @@
         </ul>
       </footer>
     </section>
+
+    <section class="login-page flex content-center">
+      <div class="login-wrapper">
+        <div class="logo center">
+          <i class="fas fa-dove"></i>
+        </div>
+
+        <div class="login-content">
+          <h2>Log in to Twimatic</h2>
+
+          <form action="" class="login-form">
+            <div class="form-group relative">
+              <label for="username">Phone, email or username</label>
+              <input type="text" id="username" class="form-control" />
+            </div>
+            <div class="form-group relative">
+              <label for="password">Password</label>
+              <input type="password" id="password" class="form-control" />
+            </div>
+
+            <div>
+              <button disabled type="submit" class="login-form-btn">
+                Log In
+              </button>
+            </div>
+          </form>
+
+          <div class="links flex">
+            <a href="#">Forgot password?</a>
+            <a href="#">Sign up for Twimatic</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Feeds Page -->
+    <section class="feeds-page">
+      <nav class="feeds-nav flex content-center">
+        <div class="icons flex items-center">
+          <a href="#" class="active"><i class="fas fa-home"></i></a>
+          <a href="#"><i class="fas fa-hashtag"></i></a>
+          <a href="#"><i class="far fa-bell"></i></a>
+          <a href="#"><i class="far fa-envelope"></i></a>
+        </div>
+
+        <div class="search-bar relative flex items-center">
+          <i class="fas fa-search"></i>
+          <input type="text" placeholder="Search Twimatic" />
+        </div>
+
+        <div class="user flex items-center">
+          <div class="user-img-wrapper">
+            <img
+              src="https://randomuser.me/api/portraits/men/74.jpg"
+              alt="User"
+              width="40"
+            />
+          </div>
+          <a href="#" class="user-link">Munir Mahmud</a>
+          <i class="fas fa-chevron-down"></i>
+        </div>
+      </nav>
+
+      <!-- Feeds Content -->
+      <div class="feeds-header" style="padding-top: 6.5rem">
+        <div class="header-top">
+          <h4>Home</h4>
+          <i class="far fa-star"></i>
+        </div>
+
+        <div class="header-post">
+          <div class="header-img-wrapper">
+            <img
+              src="https://pbs.twimg.com/media/EpxRjmxVoAIa2HG?format=png&name=small"
+              alt="Image"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
     <script src="assets/js/app.js"></script>
   </body>
 </html>
