@@ -564,3 +564,29 @@ button:disabled {
   font-size: 1.6rem;
   cursor: pointer;
 }
+
+.follow-link {
+  margin: 2rem 1rem;
+}
+.follow-link a {
+  color: var(--blue);
+  font-size: 1.5rem;
+}
+.follow-footer {
+  background-color: #f0f8fd;
+}
+.follow-footer ul {
+  padding: 2rem 0;
+  flex-wrap: wrap;
+}
+.follow-footer ul li {
+  line-height: 2.4rem;
+}
+.follow-footer a {
+  font-size: 1.4rem;
+  color: #868383;
+  padding: 0 0.7rem;
+}
+.follow-footer a:hover {
+  text-decoration: underline;
+}
