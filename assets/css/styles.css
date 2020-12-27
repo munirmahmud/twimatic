@@ -19,6 +19,11 @@ body {
   background-color: #f0f8fd;
 }
 
+ul,
+ol {
+  list-style-type: none;
+}
+
 a {
   text-decoration: none;
   color: #444444;
@@ -505,4 +510,57 @@ button:disabled {
 .post-icon.cloud:hover .icon {
   background-color: rgba(29, 161, 242, 0.1);
   color: rgb(29, 161, 242);
+}
+
+/* FOLLOW (right sidebar) */
+.follow {
+  position: fixed;
+  top: 8rem;
+  left: 57%;
+  background-color: var(--white);
+  width: 35rem;
+}
+.follow-heading {
+  padding: 1rem;
+  font-size: 1.8rem;
+  border-bottom: 1px solid #eee;
+}
+
+.follow-user {
+  padding: 1.5rem;
+  border-bottom: 0.1rem solid #eee;
+  transition: background-color 0.4s linear;
+}
+
+.follow-user:hover {
+  background-color: #eff1f2;
+}
+
+.follow-user-img {
+  width: 6rem;
+  height: 6rem;
+  margin-right: 2rem;
+}
+.follow-user-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.follow-user-info h4,
+.follow-user-info p {
+  font-size: 1.6rem;
+  margin-bottom: 0.5rem;
+}
+.follow-btn {
+  margin-left: auto;
+  width: 9rem;
+  background-color: var(--white);
+  color: var(--blue);
+  padding: 0.7rem 0.5rem;
+  border: 0.1rem solid var(--blue);
+  border-radius: 2rem;
+  font-size: 1.6rem;
+  cursor: pointer;
 }
