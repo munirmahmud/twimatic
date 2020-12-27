@@ -56,10 +56,9 @@ a {
 }
 
 .main-page {
-  display: none;
   width: 100%;
   height: 100vh;
-  /* display: grid; */
+  display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr min-content;
 }
@@ -105,7 +104,7 @@ a {
 }
 .right-content-form label {
   position: absolute;
-  top: 4rem;
+  top: 5rem;
   left: 0;
   font-size: 1.6rem;
   font-weight: 300;
@@ -134,7 +133,6 @@ a {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  /* width: 40%; */
 }
 
 .middle-content i {
@@ -282,6 +280,7 @@ button:disabled {
 .feeds-page {
   width: 100%;
   height: 100vh;
+  display: none;
 }
 .feeds-nav {
   position: fixed;
